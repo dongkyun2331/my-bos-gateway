@@ -39,6 +39,7 @@ type NetworkComponents = {
   widgetMetadata: string;
   widgetMetadataEditor: string;
   wrapper: string;
+  myProfilePage:string;
 };
 
 export const componentsByNetworkId: Record<NetworkId, NetworkComponents | undefined> = {
@@ -82,6 +83,7 @@ export const componentsByNetworkId: Record<NetworkId, NetworkComponents | undefi
     widgetMetadata: 'eugenethedream/widget/WidgetMetadata',
     widgetMetadataEditor: 'discom.testnet/widget/WidgetMetadataEditor',
     wrapper: 'discom.testnet/widget/DIG.Theme',
+    myProfilePage: 'c842b1a648114a20cfca00f01718ee4c6f46d772951d9f8f31dffc189da63b80/widget/Mission'
   },
 
   mainnet: {
@@ -123,5 +125,6 @@ export const componentsByNetworkId: Record<NetworkId, NetworkComponents | undefi
     widgetMetadata: 'mob.near/widget/WidgetMetadata',
     widgetMetadataEditor: 'near/widget/WidgetMetadataEditor',
     wrapper: 'near/widget/DIG.Theme',
+    myProfilePage: 'c842b1a648114a20cfca00f01718ee4c6f46d772951d9f8f31dffc189da63b80/widget/Mission'
   },
 };
